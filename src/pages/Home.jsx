@@ -5,6 +5,7 @@ import Marquee from "../components/Marquee";
 import About from "../components/About";
 import Eyes from "../components/Eyes";
 import Features from "../components/Features";
+import Endcard from "../components/Endcard";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Eyes />
       <Features />
+    <Endcard />
     </div>
   );
 };
